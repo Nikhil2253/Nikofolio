@@ -19,7 +19,7 @@ const Header = ({ tabs, active, setActive }) => {
           <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-gray-900">
             Nikhil Saxena
           </h1>
-          <p className="text-sm text-gray-600 font-medium">
+          <p className="text-[15px] text-gray-600 font-medium">
             Aspiring Software Engineer • MERN • Javascript
           </p>
         </div>
@@ -54,5 +54,6 @@ const Header = ({ tabs, active, setActive }) => {
     </header>
   );
 };
+
 
 export default Header;
